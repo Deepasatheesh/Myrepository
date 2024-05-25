@@ -1,0 +1,16 @@
+package com.demo;
+
+public class Example {
+
+	public static void main(String[] args) 
+	{
+          // area of Square
+        
+        int a = 10;
+        
+        int area = a*a;
+        
+        System.out.println("Area of Square : "+area);
+	}
+
+}
