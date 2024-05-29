@@ -1,0 +1,141 @@
+package com.demo;
+
+public class Operatordemo {
+
+	public static void main(String[] args)
+	{
+		// Arithmetic operators
+		
+		int first = 100;
+		int second = 200;
+		int add,sub,mul,div,mod;
+		add=first+second;
+		sub=first-second;
+		mul=first*second;
+		div=second/first;
+		mod=second%first;
+		
+		System.out.println("ADDITION :"+add);
+		System.out.println("SUBTRACTION :"+sub);
+		System.out.println("MULTIPLICATION :"+mul);
+		System.out.println("DIVISION :"+div);
+		System.out.println("MODulus :"+mod);
+		
+		//Relational operator
+		
+		boolean result;
+		
+		result=(first==second);
+		System.out.println("Equal to :"+result);
+
+		result=(first!=second);
+		System.out.println("Not Equal to :"+result);
+
+		result=(first>second);
+		System.out.println("Greater than :"+result);
+
+		result=(first<second);
+		System.out.println("Less than  :"+result);
+
+		result=(first>=second);
+		System.out.println("Greater than or Equal to :"+result);
+
+		result=(first<=second);
+		System.out.println("Less than or Equal to :"+result);
+		
+		//Logical operator
+		
+		double percent = 80.00;
+        double science = 60.00;
+        
+        boolean admission = (percent >= 70.00) || (science >= 70.00);    
+        System.out.println("Admitted : "+ admission);
+        
+        admission = (percent >= 70.00) && (science >= 70.00);    
+        System.out.println("Admitted : "+ admission);
+        
+        boolean demo=false;
+        System.out.println("Negation :"+!demo);
+        
+        //Assignment operator
+        
+        char demo1='@';
+        System.out.println("Character :"+demo1);
+        
+        //Ternary or conditional operator
+        
+        double salary=50000.00;
+        double increment=5000.00;
+        double decrement=3000.00;
+        
+        double result1 = (salary >= 45000.00) ? decrement : increment;
+        System.out.println("Salary decremented by : "+result1);
+        
+        //Increment and Decrement operator
+        
+        
+        int counter = 10;
+        System.out.println("counter : "+ counter);         //10
+        
+        System.out.println("Increment : "+   (++counter));      //  11
+        System.out.println("decrement : "+   (--counter));      //  10
+        
+        int counter1 = 10;
+        counter1++;
+        counter1++;
+        
+        System.out.println("counter : "+ counter1);
+        System.out.println("counter : "+ ~counter1);
+
+     // Unary Operators->only 1 operand ++,--,!,~
+        int a=12;
+        int b=12;
+        int res1,res2;
+        System.out.println(a);//12
+        res1=++a;//Pre Increment 1+a
+        System.out.println(res1);//1+12=13
+     res2=b++;//b+1,print 12
+        System.out.println(res2);//12
+        int res3=b++;//13
+        
+        System.out.println(res3);//13
+        int res4=++b;//1+1b,print 15
+        System.out.println(res4);
+        int res5=a--;//13-1=12,for post increment value will print first then only decrement will happen,so will get 13
+        System.out.println(res5);
+        int res6=--a;//1-12=11,pre increment 1 will be substract from value first then only print so we will get 11
+        System.out.println(res6);
+        System.out.println(~res6);
+        
+        //Bitwise operator
+        
+        int x=12,y=25;
+        int xor=x^y;
+        System.out.println("XOR GATE :"+xor);
+        
+        int and=x&y;
+        System.out.println("AND GATE :"+and);
+        
+        int or=x|y;
+        System.out.println("OR GATE :"+or);
+        
+        //Shift operator
+        int c=7,d=28;
+        //Left shift
+        int leftshift=c<<2;//c*2^shift value=7*2^2
+        System.out.println(leftshift);
+        
+        leftshift=d<<2;//c*2^shift value=7*2^2
+        System.out.println(leftshift);
+        
+      //Right shift
+        float rightshift=c>>3;//c/2^shiftvalue =7/8
+        System.out.println(rightshift);
+        
+         rightshift=d>>2;//d/2^shiftvalue =28/4
+        System.out.println(rightshift);
+       
+	}
+	
+
+}
