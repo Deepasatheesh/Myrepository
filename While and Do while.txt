@@ -1,0 +1,23 @@
+package javaPractice;
+
+public class WhileDemo {
+
+	public static void main(String[] args) 
+	{
+		int x=6;
+		while(x<10)
+		{
+			System.out.print(x);
+			x++;
+		}
+//do while
+		int y=6;
+		do
+		{
+			System.out.print(y);
+			y++;
+		}while(x<5);
+		
+	}
+
+}
