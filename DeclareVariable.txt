@@ -1,0 +1,196 @@
+package javaPractice;
+class Subject
+{
+    // instanceVariable
+    int English;
+    int Maths;
+    int Gk;
+    float total;
+    float avg;
+    String gd;
+    public void dispaly()
+    {
+        //local Variable
+        int avg=60;
+        System.out.println(avg);
+        
+    }
+    //System.out.println(avg);Local variable only accesible inside the block itself
+}
+public class LocalDeclar {
+    public static void main(String[] args) {
+        //Mark of Student 1
+        Subject s1=new Subject();
+        s1.English=80;
+        s1.Maths=70;
+        s1.Gk=90;
+        s1.total= s1.English + s1.Maths + s1.Gk;
+        s1.avg=s1.total/3;
+        
+        
+        //display the details of Student1
+        System.out.println("Student1"+"  "+" English:"+s1.English+"  "+"GK:"+s1.Gk+"  "+"Maths:"+s1.Maths+"  "+"Total:"+s1.total+"  "+"Average: "+s1.avg);
+  
+        if(s1.avg>=90.00)
+        {
+        	System.out.print("    The student1 grade is :  A+  ");
+        }
+        else if(s1.avg>=80 && s1.avg<90)
+        {
+        	System.out.print("   The student1 grade is  : A   ");
+        }
+        else if(s1.avg>=70 && s1.avg<80)
+        {
+        	System.out.print("   The student1 grade is   :   B+  ");
+        }
+        else if(s1.avg>=60 && s1.avg<70)
+        {
+        	System.out.print("  The student1 grade is  :  B  ");
+        }
+        else if(s1.avg>=50 && s1.avg<60)
+        {
+        	System.out.print("  The student1 grade is  :   C  ");
+        }
+        else
+        {
+        	System.out.print("  The student1 Fail  ");
+        }
+      //Mark of Student2
+        Subject s2=new Subject();
+        s2.English=90;
+        s2.Maths=85;
+        s2.Gk=70;
+        s2.total= s2.English + s2.Maths + s2.Gk;
+        s2.avg=s2.total/3;
+        
+      //display the details of Student2
+        System.out.println( "Student2"+"  "+" English:"+s2.English+"  "+"GK:"+s2.Gk+"  "+"Maths:"+s2.Maths+"  "+"Total:"+s2.total+"  "+"Average: "+s2.avg);
+        if(s2.avg>=90.00)
+        {
+        	System.out.print("    The student2 grade is :  A+  ");
+        }
+        else if(s2.avg>=80 && s2.avg<90)
+        {
+        	System.out.print("   The student2 grade is  : A   ");
+        }
+        else if(s2.avg>=70 && s2.avg<80)
+        {
+        	System.out.print("   The student2 grade is   :   B+  ");
+        }
+        else if(s2.avg>=60 && s2.avg<70)
+        {
+        	System.out.print("  The student2 grade is  :  B  ");
+        }
+        else if(s2.avg>=50 && s2.avg<60)
+        {
+        	System.out.print("  The student2 grade is  :   C  ");
+        }
+        else
+        {
+        	System.out.print("  The student2 Fail  ");
+        }
+      //Mark of Student 3
+        Subject s3=new Subject();
+        s3.English=60;
+        s3.Maths=50;
+        s3.Gk=60;
+        s3.total= s3.English + s3.Maths + s3.Gk;
+        s3.avg=s3.total/3;
+        
+        //display the details of Student3
+        System.out.println("Student3"+"  "+" English:"+s3.English+"  "+"GK:"+s3.Gk+"  "+"Maths:"+s3.Maths+"  "+"Total:"+s3.total+"  "+"Average: "+s3.avg);
+        if(s3.avg>=90.00)
+        {
+        	System.out.print("    The student3 grade is :  A+  ");
+        }
+        else if(s3.avg>=80 && s3.avg<90)
+        {
+        	System.out.print("   The student3 grade is  : A   ");
+        }
+        else if(s3.avg>=70 && s3.avg<80)
+        {
+        	System.out.print("   The student3 grade is   :   B+  ");
+        }
+        else if(s3.avg>=60 && s3.avg<70)
+        {
+        	System.out.print("  The student3 grade is  :  B  ");
+        }
+        else if(s3.avg>=50 && s3.avg<60)
+        {
+        	System.out.print("  The student3 grade is  :   C  ");
+        }
+        else
+        {
+        	System.out.print("  The student3 Fail  ");
+        }
+      //Mark of Student 4
+        Subject s4=new Subject();
+        s4.English=69;
+        s4.Maths=53;
+        s4.Gk=62;
+        s4.total= s4.English + s4.Maths + s4.Gk;
+        s4.avg=s4.total/3;
+        
+        //display the details of Student4
+        System.out.println("Student4"+"  "+" English:"+s4.English+"  "+"GK:"+s4.Gk+"  "+"Maths:"+s4.Maths+"  "+"Total:"+s4.total+"  "+"Average: "+s4.avg);
+        if(s4.avg>=90.00)
+        {
+        	System.out.print("    The student4 grade is :  A+  ");
+        }
+        else if(s4.avg>=80 && s4.avg<90)
+        {
+        	System.out.print("   The student4 grade is  : A   ");
+        }
+        else if(s4.avg>=70 && s4.avg<80)
+        {
+        	System.out.print("   The student4 grade is   :   B+  ");
+        }
+        else if(s4.avg>=60 && s4.avg<70)
+        {
+        	System.out.print("  The student4 grade is  :  B  ");
+        }
+        else if(s4.avg>=50 && s4.avg<60)
+        {
+        	System.out.print("  The student4 grade is  :   C  ");
+        }
+        else
+        {
+        	System.out.print("  The student4 Fail  ");
+        }
+      //Mark of Student 5
+        Subject s5=new Subject();
+        s5.English=70;
+        s5.Maths=60;
+        s5.Gk=90;
+        s5.total= s5.English + s5.Maths + s5.Gk;
+        s5.avg=s5.total/3;
+        //display the details of Student5
+        System.out.println("Student5"+"  "+" English:"+s5.English+"  "+"GK:"+s5.Gk+"  "+"Maths:"+s5.Maths+"  "+"Total:"+s5.total+"  "+"Average: "+s5.avg);
+        if(s5.avg>=90.00)
+        {
+        	System.out.print("    The student5 grade is :  A+  ");
+        }
+        else if(s5.avg>=80 && s5.avg<90)
+        {
+        	System.out.print("   The student5 grade is  : A   ");
+        }
+        else if(s5.avg>=70 && s5.avg<80)
+        {
+        	System.out.print("   The student5 grade is   :   B+  ");
+        }
+        else if(s5.avg>=60 && s5.avg<70)
+        {
+        	System.out.print("  The student5 grade is  :  B  ");
+        }
+        else if(s5.avg>=50 && s5.avg<60)
+        {
+        	System.out.print("  The student5 grade is  :   C  ");
+        }
+        else
+        {
+        	System.out.print("  The student1 Fail  ");
+        }
+        
+        
+    }
+}
