@@ -1,0 +1,25 @@
+package javaPractice;
+class Student
+{
+    
+    //Static Variable
+    int id;
+    public static String  name;
+    static double  fees=1000.00;
+    //behaviour
+    public static void show()
+    {
+    System.out.println("This is an Example of Static  Variable") ;
+    }
+    
+}
+public class VariablesEx {
+    public static void main(String[] args) {
+    
+        
+        Student.name="Deepa";
+        System.out.println(Student.name);
+        //System.out.println("Student fees:"+obj.fees);
+        Student.show();
+    }
+}
